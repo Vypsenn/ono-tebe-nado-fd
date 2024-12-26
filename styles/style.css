@@ -15,7 +15,6 @@ article {
     align-items: center;
     padding: 93.16px 50px 95.19px;
     list-style: circle;
-    background-color: rgb(255, 0, 179, 0.5);
 }
 
 .header_nav {
@@ -25,8 +24,7 @@ article {
     line-height: 21.13px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    
+    text-decoration-skip-ink: none;    
 }
 
 .header__links-list {
@@ -102,18 +100,18 @@ article {
   
 .cover__title {
     color: #FFFFFF;
-    font-family: "Raleway bold", sans-serif; 
+    font-family: "Raleway bold", sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
-    letter-spacing: 0.3em;   
+    letter-spacing: 0.3em;
     width: 1000px;
     height: 385px;
     margin-top: 165px;
     margin-left: 50px;
     margin-right: 50px;
     align-self: center;
-    display: flex;  
+    display: flex;
     flex-direction: column;   
     justify-content: space-between;
 }
@@ -180,7 +178,6 @@ article {
     width: 100%;
     height: 723px;
     margin-bottom: 155px;
-    background-color: rgb(0, 0, 223, 0.5);
     padding-left: 28px;
 }
 
@@ -199,7 +196,7 @@ article {
 
 .card {
     width: 334px;
-    height: 596px;  
+    height: 596px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -222,7 +219,7 @@ article {
     background-image: url("../images/card-lot-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
 
 .card_type_book {
@@ -289,8 +286,7 @@ article {
     justify-items: start;
     align-items: center;
     column-gap: 25px;
-    row-gap: 1px;
-    background-color: rgba(240, 91, 5, 0.5);
+    row-gap: 1px;    
     padding-left: 28px;
 }
 
@@ -302,17 +298,12 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-self: center;    
+    justify-self: center;
 }
 
 .about_logo_img {
     width: 148px;
     height: 114px;
-}
-
-.about__column_text {
-    padding-bottom: 28px;
-    padding-right: 40px;
 }
 
 .about__title {
@@ -344,6 +335,8 @@ article {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding-bottom: 28px;
+    padding-right: 40px;
 }
 
 .footer { 
@@ -353,8 +346,7 @@ article {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     justify-items: center;
-    margin-top: 150px;
-    background-color: rgba(0, 255, 34, 0.5);
+    margin-top: 150px;  
 }
 
 .footer__menu-list {
