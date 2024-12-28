@@ -12,7 +12,7 @@ article {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 87px 50px 95.19px;
+  padding: 82px 50px 95.19px;
   list-style: circle;
 }
 
@@ -29,8 +29,7 @@ article {
 .header__links-list {
   display: flex;
   list-style: circle;
-  gap: 40px 45px;
-  text-underline-offset: 0.18em;
+  gap: 25px 33px;
 }
 
 .header__logo {
@@ -38,12 +37,33 @@ article {
   height: 98px;
 }
 
-.link_active {
-  list-style-type: none;
-}
-
 .link {
   text-decoration: underline;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.link_active {
+  text-decoration: none;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .address {
@@ -77,6 +97,7 @@ article {
   min-height: 757px;
   position: relative;
   margin-bottom: 180px;
+  margin-top: 5px;
 }
 
 .overlay {
@@ -116,7 +137,7 @@ article {
 .cover__description {
   display: flex;
   justify-content: space-around;
-  margin-top: 108px;
+  margin-top: 105px;
 }
 
 .aligned-text {
@@ -132,8 +153,12 @@ article {
   margin-bottom: 20px;
 }
 
+.letter_te {
+  margin-right: 7px;
+}
+
 .letter {
-  padding-right: 10px;
+  letter-spacing: 22px;
 }
 
 .aligned-text_right {
@@ -175,7 +200,6 @@ article {
   width: 100%;
   margin-bottom: 155px;
   padding-left: 25px;
-  flex-wrap: wrap;
 }
 
 .lots__heading {
@@ -195,6 +219,7 @@ article {
   width: 334px;
   min-height: 596px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -277,7 +302,7 @@ article {
   align-items: center;
   column-gap: 25px;
   row-gap: 1px;
-  padding-left: 28px;
+  padding-left: 25px;
 }
 
 .about_logo {
@@ -324,7 +349,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-bottom: 25px;
+  padding-top: 7px;
   padding-right: 45px;
 }
 
@@ -334,12 +359,13 @@ article {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   justify-items: center;
-  margin-top: 150px;
+  margin-top: 167px;
   padding-top: 13px;
 }
 
 .footer_address {
   padding-right: 20px;
+  margin-right: 5px;
 }
 
 .footer__menu-list {
@@ -351,7 +377,8 @@ article {
   display: flex;
   justify-content: space-between;
   justify-self: end;
-  padding-left: 20px;
+  padding-left: 15px;
+  gap: 20px 46px;
 }
 
 .footer__social-icon {
