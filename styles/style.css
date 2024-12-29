@@ -118,12 +118,14 @@ article {
 }
 
 .cover__title {
-  color: #ffffff;
-  font-family: "Raleway bold", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
   letter-spacing: 0.3em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
   width: 1000px;
   margin-top: 165px;
   margin-left: 50px;
@@ -153,20 +155,12 @@ article {
   margin-bottom: 20px;
 }
 
-.letter_te {
-  margin-right: 7px;
-}
-
-.letter {
-  letter-spacing: 22px;
-}
-
 .aligned-text_right {
   align-self: end;
   width: 387px;
 }
 
-.cover__description-text {
+.cover__description-text {  
   color: rgba(255, 255, 255, 1);
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -219,7 +213,6 @@ article {
   width: 334px;
   min-height: 596px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -234,6 +227,7 @@ article {
   display: flex;
   gap: 25px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .card-link {
@@ -360,7 +354,9 @@ article {
   align-items: start;
   justify-items: center;
   margin-top: 167px;
+  margin-bottom: auto;
   padding-top: 13px;
+  padding-bottom: 82px;
 }
 
 .footer_address {
